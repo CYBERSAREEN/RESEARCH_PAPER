@@ -1,4 +1,4 @@
-```markdown
+
 # PenBox: An Autonomous, AI and IOT based System for Integrated Penetration Testing and Security Monitoring
 
 > 📢 This repository will host my upcoming research paper.
@@ -112,8 +112,7 @@ License information will be added after publication.
 
 ---
 
-> Built with dedication towards advancing research in [Your Domain].
-```
+> Built with dedication towards advancing research in Cybersecurity.
 
 ---
 
