@@ -1,118 +1,113 @@
+<div align="center">
 
-# PenBox: An Autonomous, AI and IOT based System for Integrated Penetration Testing and Security Monitoring
+# PenBox Research Paper
 
-> 📢 This repository will host my upcoming research paper.
-> The full paper, datasets, implementation, and supplementary materials will be uploaded after official publication.
+**PenBox: An Autonomous AI + IoT System for Integrated Penetration Testing and Security Monitoring**
 
----
+[![Status](https://img.shields.io/badge/Status-Under%20Review-yellow?style=flat-square)](https://github.com/CYBERSAREEN/RESEARCH_PAPER)
+[![Domain](https://img.shields.io/badge/Domain-AI%20%2B%20IoT%20Security-8A2BE2?style=flat-square)](https://github.com/CYBERSAREEN/RESEARCH_PAPER)
+[![Author](https://img.shields.io/badge/Author-Vedant%20Sareen-181717?style=flat-square&logo=github)](https://github.com/CYBERSAREEN)
+[![University](https://img.shields.io/badge/University-Chitkara%20University-blue?style=flat-square)](https://chitkara.edu.in)
 
-## 📌 About This Research
+*Full paper, datasets, and implementation will be uploaded after official publication.*
 
-This research focuses on advancing the field of **Cybersecurity, AI-driven Threat Detection, Malware Analysis and integration of IOT devices**.
-
-The primary objective of this study is to:
-
-- 🔍 Address existing limitations in current methodologies
-- 🛡️ Propose a novel framework/architecture
-- 📊 Improve detection accuracy and reduce false positives
-- ⚡ Enhance performance efficiency in real-world environments
+</div>
 
 ---
 
-## 🎯 Research Goals
+## Abstract
 
-- Design and implement an intelligent system for **Lack of Ai based iot systems**
-- Evaluate performance against existing approaches
-- Provide experimental validation using real-world datasets
-- Contribute practical and scalable solutions
+This research addresses a critical gap in enterprise security: the lack of **autonomous, AI-driven IoT penetration testing** frameworks capable of operating at scale without continuous human intervention.
 
----
+The proposed **PenBox** system integrates:
+- Multi-agent AI orchestration for distributed vulnerability discovery
+- IoT device fingerprinting and lateral movement detection
+- Reinforcement learning for adaptive exploit chaining
+- Automated remediation guidance mapped to MITRE ATT&CK
 
-## 🧠 Key Concepts Covered
-
-- Artificial Intelligence / Machine Learning
-- Advanced Persistent Threat (APT) Detection
-- Heuristic vs Behavioral Analysis
-- Network Monitoring & IDS/IPS Enhancement
-- Reinforcement Learning (if applicable)
+The objective is a system that autonomously assesses, reports, and suggests remediation across heterogeneous IoT and enterprise networks — reducing MTTD and MTTR by an order of magnitude.
 
 ---
 
-## 📈 Expected Contributions
+## Research Goals
 
-- ✔ Novel detection methodology
-- ✔ Performance benchmarking
-- ✔ Comparative analysis with state-of-the-art models
-- ✔ Practical deployment insights
+- Design and implement an AI + IoT-based autonomous penetration testing framework
+- Evaluate performance against existing commercial and open-source solutions
+- Validate using real-world and simulated IoT testbeds
+- Contribute a scalable, deployable framework with practical industry relevance
 
 ---
 
-## 🏗️ Repository Structure (Will Be Updated)
+## Key Concepts
+
+| Concept | Scope |
+|---|---|
+| **Multi-Agent AI** | Distributed agents for parallel vulnerability discovery |
+| **IoT Security** | Firmware analysis, protocol attacks (MQTT, CoAP, Zigbee) |
+| **Reinforcement Learning** | Adaptive exploit chains, dynamic priority scoring |
+| **MITRE ATT&CK** | Full tactic-to-technique mapping for all findings |
+| **Autonomous Remediation** | AI-generated fix recommendations with severity scoring |
+| **APT Detection** | Behavioral analysis for advanced persistent threat identification |
+
+---
+
+## Related Repos
+
+| Repo | Relation |
+|---|---|
+| [penbox-dmas](https://github.com/CYBERSAREEN/penbox-dmas) | Companion implementation — distributed multi-agent security appliance |
+| [CHAPTER_14](https://github.com/CYBERSAREEN/CHAPTER_14) | Published book chapter on AI + IoT security research directions |
+| [CyberSecurityTools](https://github.com/CYBERSAREEN/CyberSecurityTools) | Python tool suite used in experimental validation |
+
+---
+
+## Repository Structure *(Updated After Publication)*
 
 ```
-
-📁 paper/
-📁 datasets/
-📁 implementation/
-📁 results/
-📄 README.md
-
-```
-
----
-
-## 📅 Publication Status
-
-🟡 **Currently Under Review / In Submission**
-
-The full paper will be uploaded here immediately after:
-
-- Acceptance confirmation
-- Copyright clearance
-- Official publication
-
----
-
-## 📜 Citation (Coming Soon)
-
-Once published, please cite as:
-
-```
-
-Author Name: Vedant Sareen . Paper Title: PenBox: An Autonomous, AI and IOT based System for Integrated Penetration Testing and Security Monitoring, 2026.
-
+RESEARCH_PAPER/
+├── paper/              # Full PDF (post-publication)
+├── datasets/           # Experimental datasets
+├── implementation/     # Source code
+├── results/            # Tables, figures, benchmark results
+└── README.md
 ```
 
 ---
 
-## 🤝 Contact
+## Publication Status
 
-If you are interested in collaboration, early discussion, or technical insights:
+> **Currently Under Review / In Submission**
 
-📧 Email: securecybernetics@gmail.com
-🌐 LinkedIn: https://www.linkedin.com/in/sareen-cybersecurity-477180ved/
-🐙 GitHub: https://github.com/CYBERSAREEN
+Full paper, source code, and datasets will be uploaded immediately after acceptance and copyright clearance.
 
 ---
 
-## ⭐ Stay Tuned
+## Citation *(Coming Soon)*
 
-This repository will soon contain:
-
-- 📄 Full research paper (PDF)
-- 💻 Source code implementation
-- 📊 Experimental results
-- 📂 Dataset information
-
----
-
-### 🔐 License
-
-License information will be added after publication.
+```bibtex
+@article{sareen2026penbox,
+  title   = {PenBox: An Autonomous AI and IoT based System for Integrated
+             Penetration Testing and Security Monitoring},
+  author  = {Vedant Sareen},
+  year    = {2026},
+  email   = {securecybernetics@gmail.com},
+  affiliation = {Chitkara University, Department of CSE (Cybersecurity)}
+}
+```
 
 ---
 
-> Built with dedication towards advancing research in Cybersecurity.
+## Author
+
+**Vedant Sareen**
+B.Tech CSE (Cybersecurity) — Chitkara University, Punjab, India
+📧 securecybernetics@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/sareen-cybersecurity-477180ved/) · [GitHub](https://github.com/CYBERSAREEN)
 
 ---
 
+<div align="center">
+
+*Built with dedication towards advancing research in AI-driven cybersecurity.*
+
+</div>
